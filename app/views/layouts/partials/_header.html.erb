@@ -1,0 +1,14 @@
+<header>
+  <div class="logo">
+    <%= link_to(controller: 'pages', action: 'home') do %>
+      <img src="img/logo.png" title="Magnetic" alt="Magnetic"/>
+    <%end%>
+  </div><!-- end logo -->
+
+  <div id="menu_icon"></div>
+
+  <%= render 'layouts/partials/nav'%>
+
+  <%= render 'layouts/partials/footer'%>
+
+</header><!-- end header -->
